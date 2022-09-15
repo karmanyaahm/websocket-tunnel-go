@@ -1,12 +1,3 @@
-# ### ZIG
-
-zig-cache/
-zig-out/
-/release/
-/debug/
-/build/
-/build-*/
-/docgen_tmp/
 # ### GO
 # Binaries for programs and plugins
 *.exe
