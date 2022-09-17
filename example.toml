@@ -1,0 +1,18 @@
+
+
+[[peer]]
+url = "wss://example.com/url"
+pass = "mysecret"
+listen = { wg = "tcp://localhost:51820", http = "tcp://0.0.0.0:80" }
+forward = { https = "tcp://10.0.0.1:443" }
+
+# if has url, we are a conn peer, else we are a listen peer
+
+# example of the other server
+
+wslisten = ":::8081"
+# where "receive" websockets will listen on
+[[peer]]
+pass = "mysecret"
+listen = { https = "tcp://:::443" }
+forward = { wg = "tcp://myvpn.local:51821", http = "tcp://localhost:80" }

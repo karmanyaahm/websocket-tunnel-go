@@ -2,6 +2,11 @@
 
 reverse chronological
 
+2022-09-16
+- ![IMG_20220916_092702](https://user-images.githubusercontent.com/32671690/190663304-5a8ba236-58eb-45f4-9b61-7aec614d2a98.jpg)
+- see example.toml for my plan on how it can be configured, the different modes
+- see https://github.com/golang/go/issues/10275
+
 2022-09-15
 - back to go
 - nvm, no package manager aaaaaa
